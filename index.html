@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Saylani Homepage - Basit</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
     <style>
+        *
+        {
+            font-family: 'Roboto Slab', serif;
+        }
         :root{
 --blue-color: #316DC3;
 --green-color: #427900;
@@ -303,6 +308,10 @@ h4
 {
     height: 400px;
 }
+.copyright span
+{
+    float:none !important;
+}
 }
 @media only screen and (max-width: 518px)
 {
@@ -328,6 +337,7 @@ h4
     height: 300px;
 }   
 }
+
     </style>
 </head>
 <body class="sm-text-center">
@@ -584,7 +594,7 @@ h4
     <div class="container">
         <h1 class="text-uppercase"><span style="color: var(--blue-color);">What we</span><span style="color: var(--green-color);"> are doing?</span></h1>
         <span>____</span>
-        <img src="images/logo.png" width="60" height="60">
+        <img src="images/Logo.png" width="60" height="60">
         <span>____</span>
         <br><br>
         <div class="container">
@@ -725,7 +735,7 @@ h4
     <div class="container">
         <h1 class="text-uppercase"><span style="color: var(--blue-color);">IMAGE</span><span style="color: var(--green-color);"> Gallery</span></h1>
         <span>____</span>
-        <img src="images/logo.png" width="60" height="60">
+        <img src="images/Logo.png" width="60" height="60">
         <span>____</span>
         <br><br>
         
@@ -787,8 +797,11 @@ h4
 <div class="copyright" style="background-color: var(--blue-color);">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-12">
+            <div class="col-md-6 col-sm-12">
                 <span>Copyright © 2020 Saylani Welfare</span> 
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <span style="float: right;">Created by Muhammad Basit</span> 
             </div>
         </div>
     </div>

@@ -38,10 +38,20 @@ body
 {
     width: 100%;
     background-color: var(--blue-color);
-    display: flex;
     height: 48px;
     line-height: 48px;
+    
+}
+.topbar .bar 
+{
+    margin: auto;
+    width: 70%;
+    display: flex;
     justify-content: space-around;
+}
+.bar div
+{
+    width: 33%;
 }
 .social-icons
 {
@@ -71,13 +81,16 @@ body
     color: var(--blue-color);
     background-color: #FFF;
     text-align: center;
-    padding: 0px 12px;
-    margin: 7px;
+    padding: 2px 8px;
+    margin-left: 6px;
+    line-height: 28px;
+    height: 28px;
+    margin-top: 7px;
 }
 .buttons
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     line-height: 48px;
 }
 .banner img
@@ -154,4 +167,15 @@ body
   }
   .card:hover::after {
     opacity: 1;
+  }
+  @media(max-width: 945px)
+  {
+      .bar div
+      {
+          width: 100%;
+      }
+      .counters .item
+      {
+          width: 100%;
+      }
   }
